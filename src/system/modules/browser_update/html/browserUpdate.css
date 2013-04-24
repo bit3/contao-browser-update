@@ -1,0 +1,37 @@
+div#browserUpdate 
+{
+	width: 100%;
+	z-index: 99999;
+	background: #FDF2AB url(warning.png) no-repeat scroll 1em center;
+	border-bottom: 1px solid #A29330; 
+	text-align: left; 
+	font-family: Arial,Helvetica,sans-serif; 
+	color: #000000; 
+	font-size: 0.9375em;
+}
+
+div#browserUpdate div 
+{
+	float: right; 
+	width: 1em;
+	height: 1.2em;
+	margin: 0.3em 0.6em 0.3em 0.3em;
+}
+
+div#browserUpdate p 
+{
+	margin: 0;
+	padding: 0.4em 36px 0.4em 40px;
+}
+
+div#browserUpdate a 
+{
+	color: #E25600;
+}
+
+div#browserUpdate a#browserUpdateClose
+{
+	color: #000000;
+	font-weight: bold; 
+	font-size: 1.09375em;
+}
